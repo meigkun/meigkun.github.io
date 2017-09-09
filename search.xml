@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo简单使用]]></title>
+    <url>%2F2017%2F09%2F09%2FHexo%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[基础命令 hexo init #初始化 hexo n “我的博客” == hexo new “我的博客” #新建文章 hexo p == hexo publish hexo g == hexo generate#生成 hexo s == hexo server #启动服务预览 hexo d == hexo deploy#部署 服务器： hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。 hexo server -s #静态模式 hexo server -p 5000 #更改端口 hexo server -i 192.168.1.1 #自定义 IP hexo clean #清除缓存 网页正常情况下可以忽略此条命令 hexo g #生成静态网页 hexo d #开始部署 模版 hexo new “postName” #新建文章 hexo new page “pageName” #新建页面 hexo generate #生成静态页面至public目录 hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server） hexo deploy #将.deploy目录部署到GitHub hexo new [layout] hexo new photo “My Gallery” hexo new “Hello World” –lang tw]]></content>
+      <categories>
+        <category>Hexo教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hello]]></title>
     <url>%2F2017%2F09%2F09%2Fhello%2F</url>
     <content type="text"><![CDATA[hello hello hello]]></content>
